@@ -7,3 +7,7 @@ function increment(){
 	console.log("The button was clicked")
 	countEl.innerText = count
 }
+
+function save(){
+	console.log(count)
+}
