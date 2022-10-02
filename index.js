@@ -1,7 +1,8 @@
 
+let countEl = document.getElementById("count-el")
 let count = 0
-console.log(count)
+
 function increment(){
-	count = count + 1 
-	console.log(count)
+	count = count + 1
+	console.log("The button was clicked")
 }
